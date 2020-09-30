@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ToolkitSelector));
             this.convertorButton = new System.Windows.Forms.Button();
             this.flipDirPicsButton = new System.Windows.Forms.Button();
             this.jsonViewerButton = new System.Windows.Forms.Button();
@@ -71,6 +72,7 @@
             this.Controls.Add(this.jsonViewerButton);
             this.Controls.Add(this.flipDirPicsButton);
             this.Controls.Add(this.convertorButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ToolkitSelector";
             this.Text = "Toolkit Selector";
             this.ResumeLayout(false);
