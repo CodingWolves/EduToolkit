@@ -31,5 +31,10 @@ namespace EduToolkits
         {
             ApplicationQueue.InstanceAddFormQueue(new JsonViewer.JsonLoader());
         }
+
+        private void SentencesToImagesButton_Click(object sender, EventArgs e)
+        {
+            ApplicationQueue.InstanceAddFormQueue(new SentencesToImages.Form1());
+        }
     }
 }

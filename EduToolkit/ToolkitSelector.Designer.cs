@@ -32,6 +32,7 @@
             this.convertorButton = new System.Windows.Forms.Button();
             this.flipDirPicsButton = new System.Windows.Forms.Button();
             this.jsonViewerButton = new System.Windows.Forms.Button();
+            this.SentencesToImagesButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // convertorButton
@@ -64,11 +65,22 @@
             this.jsonViewerButton.UseVisualStyleBackColor = true;
             this.jsonViewerButton.Click += new System.EventHandler(this.jsonViewerButton_Click);
             // 
+            // SentencesToImagesButton
+            // 
+            this.SentencesToImagesButton.Location = new System.Drawing.Point(12, 125);
+            this.SentencesToImagesButton.Name = "SentencesToImagesButton";
+            this.SentencesToImagesButton.Size = new System.Drawing.Size(195, 107);
+            this.SentencesToImagesButton.TabIndex = 2;
+            this.SentencesToImagesButton.Text = "Sentences To Images";
+            this.SentencesToImagesButton.UseVisualStyleBackColor = true;
+            this.SentencesToImagesButton.Click += new System.EventHandler(this.SentencesToImagesButton_Click);
+            // 
             // ToolkitSelector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 131);
+            this.ClientSize = new System.Drawing.Size(620, 244);
+            this.Controls.Add(this.SentencesToImagesButton);
             this.Controls.Add(this.jsonViewerButton);
             this.Controls.Add(this.flipDirPicsButton);
             this.Controls.Add(this.convertorButton);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Button convertorButton;
         private System.Windows.Forms.Button flipDirPicsButton;
         private System.Windows.Forms.Button jsonViewerButton;
+        private System.Windows.Forms.Button SentencesToImagesButton;
     }
 }
 
