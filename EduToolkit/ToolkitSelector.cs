@@ -34,7 +34,7 @@ namespace EduToolkits
 
         private void SentencesToImagesButton_Click(object sender, EventArgs e)
         {
-            ApplicationQueue.InstanceAddFormQueue(new SentencesToImages.Form1());
+            ApplicationQueue.InstanceAddFormQueue(new SentencesToImages.SentencesToImages());
         }
     }
 }

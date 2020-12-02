@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipDirPics", "..\..\FlipDi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonViewer", "..\..\JsonViewer\JsonViewer\JsonViewer.csproj", "{2AB40003-CABD-4364-8690-3FE61B381A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentencesToImages", "..\..\SentencesToImages\SentencesToImages\SentencesToImages.csproj", "{AC9007B5-0AA9-44E5-BD72-2DEC615304E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentencesToImages", "..\..\SentencesToImages\SentencesToImages.csproj", "{AC9007B5-0AA9-44E5-BD72-2DEC615304E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
