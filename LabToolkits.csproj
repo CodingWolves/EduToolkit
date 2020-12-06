@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{992CF0A8-9499-47F8-AB21-8729B2A91DCC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>EduToolkit</RootNamespace>
-    <AssemblyName>EduToolkit</AssemblyName>
+    <RootNamespace>LabToolkits</RootNamespace>
+    <AssemblyName>LabToolkits</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -23,8 +23,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>5</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -58,10 +58,10 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>EduToolkit.ico</ApplicationIcon>
+    <ApplicationIcon>LabToolkits.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -99,7 +99,6 @@
     <EmbeddedResource Include="ToolkitSelector.resx">
       <DependentUpon>ToolkitSelector.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="EduToolkit_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,24 +113,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Convertor\Convertor\Convertor.csproj">
-      <Project>{1e2f57c7-5afb-4705-b814-3082a45fdede}</Project>
-      <Name>Convertor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\FlipDirPics\FlipThisPic\FlipDirPics.csproj">
-      <Project>{b5220abf-9278-4ee7-b675-28e5f48cbec1}</Project>
-      <Name>FlipDirPics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\JsonViewer\JsonViewer\JsonViewer.csproj">
-      <Project>{2ab40003-cabd-4364-8690-3fe61b381a4c}</Project>
-      <Name>JsonViewer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\SentencesToImages\SentencesToImages.csproj">
-      <Project>{ac9007b5-0aa9-44e5-bd72-2dec615304e0}</Project>
-      <Name>SentencesToImages</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -144,7 +125,25 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EduToolkit.ico" />
+    <Content Include="LabToolkits.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Convertor\Convertor.csproj">
+      <Project>{1e2f57c7-5afb-4705-b814-3082a45fdede}</Project>
+      <Name>Convertor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlipDirPics\FlipDirPics.csproj">
+      <Project>{b5220abf-9278-4ee7-b675-28e5f48cbec1}</Project>
+      <Name>FlipDirPics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JsonViewer\JsonViewer.csproj">
+      <Project>{2ab40003-cabd-4364-8690-3fe61b381a4c}</Project>
+      <Name>JsonViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SentencesToImages\SentencesToImages.csproj">
+      <Project>{ac9007b5-0aa9-44e5-bd72-2dec615304e0}</Project>
+      <Name>SentencesToImages</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

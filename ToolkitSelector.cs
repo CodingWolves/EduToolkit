@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EduToolkits
+namespace AppTools
 {
     public partial class ToolkitSelector : Form
     {

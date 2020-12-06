@@ -1,4 +1,4 @@
-﻿namespace EduToolkits
+﻿namespace AppTools
 {
     partial class ToolkitSelector
     {

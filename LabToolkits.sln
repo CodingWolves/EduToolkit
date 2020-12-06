@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduToolkit", "EduToolkit.csproj", "{992CF0A8-9499-47F8-AB21-8729B2A91DCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabToolkits", "LabToolkits.csproj", "{992CF0A8-9499-47F8-AB21-8729B2A91DCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor", "..\..\Convertor\Convertor\Convertor.csproj", "{1E2F57C7-5AFB-4705-B814-3082A45FDEDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor", "..\Convertor\Convertor.csproj", "{1E2F57C7-5AFB-4705-B814-3082A45FDEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipDirPics", "..\..\FlipDirPics\FlipThisPic\FlipDirPics.csproj", "{B5220ABF-9278-4EE7-B675-28E5F48CBEC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipDirPics", "..\FlipDirPics\FlipDirPics.csproj", "{B5220ABF-9278-4EE7-B675-28E5F48CBEC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonViewer", "..\..\JsonViewer\JsonViewer\JsonViewer.csproj", "{2AB40003-CABD-4364-8690-3FE61B381A4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonViewer", "..\JsonViewer\JsonViewer.csproj", "{2AB40003-CABD-4364-8690-3FE61B381A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentencesToImages", "..\..\SentencesToImages\SentencesToImages.csproj", "{AC9007B5-0AA9-44E5-BD72-2DEC615304E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentencesToImages", "..\SentencesToImages\SentencesToImages.csproj", "{AC9007B5-0AA9-44E5-BD72-2DEC615304E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
